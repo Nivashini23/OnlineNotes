@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(to right, #949494, #e4e3e3, #e4e3e3, #e4e3e3, #e4e3e3, #949494);
+    background-position: center;
+    overflow: hidden;
+}
+
+.custom-nav {
+    position: sticky;
+    top: 0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+   
+a {
+    font-size: 1rem;
+    font-weight: normal;
+}
+   
+.ul, .li{
+    list-style:none;
+}
+
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.ul .li {
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+
+.ul .li a{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:13rem;
+    width:13rem;
+}
+
+.ul .li a:focus {
+    outline: none;
+    border: none;
+}
+
+.ul .li{
+    margin:1rem;
+    padding:1rem;
+}
+
+.ul .li:hover, .ul .li:focus {
+    box-shadow: 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.10);
+    position: relative;
+    z-index: 5;
+}
+
+#btn-logout {
+    border: none;
+}
+
+.btn-add {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    height: 2.2rem;
+}
+
+.btn-del {
+    cursor: pointer;
+}
+
+.note-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
